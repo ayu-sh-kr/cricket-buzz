@@ -1,0 +1,218 @@
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Bhuvneswar Kumar",
+  "dateOfBirth": "05/02/1990",
+  "country": "INDIA",
+  "playerType": "BOWLER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Sikhar Dhawan",
+  "dateOfBirth": "05/12/1985",
+  "country": "INDIA",
+  "playerType": "BATTER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Suresh Raina",
+  "dateOfBirth": "27/11/1986",
+  "country": "INDIA",
+  "playerType": "ALL_ROUNDER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Mahendra Singh Dhone",
+  "dateOfBirth": "07/07/1981",
+  "country": "INDIA",
+  "playerType": "WICKETKEEPER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Yuvraj Singh",
+  "dateOfBirth": "12/12/1981",
+  "country": "INDIA",
+  "playerType": "BATTER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Ravindra Jadeja",
+  "dateOfBirth": "06/12/1988",
+  "country": "INDIA",
+  "playerType": "ALL_ROUNDER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Ravichandran Ashwin",
+  "dateOfBirth": "17/09/1986",
+  "country": "INDIA",
+  "playerType": "BOWLER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Vinay Kumar",
+  "dateOfBirth": "12/02/1984",
+  "country": "INDIA",
+  "playerType": "BOWLER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Mohammed Shami",
+  "dateOfBirth": "03/09/1990",
+  "country": "INDIA",
+  "playerType": "BOWLER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Aaron Finch",
+  "dateOfBirth": "17/09/1986",
+  "country": "AUSTRALIA",
+  "playerType": "BATTER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Philip Hughes",
+  "dateOfBirth": "30/09/1998",
+  "country": "AUSTRALIA",
+  "playerType": "BATTER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Brad Haddin",
+  "dateOfBirth": "23/10/1977",
+  "country": "AUSTRALIA",
+  "playerType": "BATTER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "George Bailey",
+  "dateOfBirth": "07/09/1982",
+  "country": "AUSTRALIA",
+  "playerType": "BATTER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Adam Voges",
+  "dateOfBirth": "04/10/1979",
+  "country": "AUSTRALIA",
+  "playerType": "BATTER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Glenn Maxwell",
+  "dateOfBirth": "14/10/1988",
+  "country": "AUSTRALIA",
+  "playerType": "ALL_ROUNDER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Shane Watson",
+  "dateOfBirth": "17/06/1981",
+  "country": "AUSTRALIA",
+  "playerType": "ALL_ROUNDER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Nathan Coulter-Nile",
+  "dateOfBirth": "11/10/1987",
+  "country": "AUSTRALIA",
+  "playerType": "BOWLER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Clint McKay",
+  "dateOfBirth": "20/02/1983",
+  "country": "AUSTRALIA",
+  "playerType": "BOWLER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "Xavier Doherty",
+  "dateOfBirth": "22/11/1992",
+  "country": "AUSTRALIA",
+  "playerType": "BOWLER"
+}
+
+###
+POST http://localhost:8080/api/player/create
+Content-Type: application/json
+
+{
+  "name": "James Faulkner",
+  "dateOfBirth": "29/04/1990",
+  "country": "AUSTRALIA",
+  "playerType": "ALL_ROUNDER"
+}

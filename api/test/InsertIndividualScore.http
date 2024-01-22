@@ -1,0 +1,281 @@
+###
+POST http://localhost:8080/api/player/add-match?playerId=1
+Content-Type: application/json
+
+{
+  "score": 0,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "INDIA",
+  "playedAgainst": "AUSTRALIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=2
+Content-Type: application/json
+
+{
+  "score": 209,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "INDIA",
+  "playedAgainst": "AUSTRALIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=3
+Content-Type: application/json
+
+{
+  "score": 0,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "INDIA",
+  "playedAgainst": "AUSTRALIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=4
+Content-Type: application/json
+
+{
+  "score": 60,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "INDIA",
+  "playedAgainst": "AUSTRALIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=5
+Content-Type: application/json
+
+{
+  "score": 28,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "INDIA",
+  "playedAgainst": "AUSTRALIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=7
+Content-Type: application/json
+
+{
+  "score": 12,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "INDIA",
+  "playedAgainst": "AUSTRALIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=1=6
+Content-Type: application/json
+
+{
+  "score": 62,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "INDIA",
+  "playedAgainst": "AUSTRALIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=8
+Content-Type: application/json
+
+{
+  "score": 0,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "INDIA",
+  "playedAgainst": "AUSTRALIA"
+}
+
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=12
+Content-Type: application/json
+
+{
+  "score": 5,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "AUSTRALIA",
+  "playedAgainst": "INDIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=13
+Content-Type: application/json
+
+{
+  "score": 23,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "AUSTRALIA",
+  "playedAgainst": "INDIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=14
+Content-Type: application/json
+
+{
+  "score": 40,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "AUSTRALIA",
+  "playedAgainst": "INDIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=15
+Content-Type: application/json
+
+{
+  "score": 4,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "AUSTRALIA",
+  "playedAgainst": "INDIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=16
+Content-Type: application/json
+
+{
+  "score": 4,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "AUSTRALIA",
+  "playedAgainst": "INDIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=17
+Content-Type: application/json
+
+{
+  "score": 60,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "AUSTRALIA",
+  "playedAgainst": "INDIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=18
+Content-Type: application/json
+
+{
+  "score": 49,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "AUSTRALIA",
+  "playedAgainst": "INDIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=19
+Content-Type: application/json
+
+{
+  "score": 3,
+  "wicket": 0,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "AUSTRALIA",
+  "playedAgainst": "INDIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=20
+Content-Type: application/json
+
+{
+  "score": 18,
+  "wicket": 1,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "AUSTRALIA",
+  "playedAgainst": "INDIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=12
+Content-Type: application/json
+
+{
+  "score": 0,
+  "wicket": 2,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "AUSTRALIA",
+  "playedAgainst": "INDIA"
+}
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=22
+Content-Type: application/json
+
+{
+  "score": 116,
+  "wicket": 1,
+  "stadium": "Chinnaswami, Bengaluru",
+  "matchType": "ODI",
+  "matchDate": "02/11/2013",
+  "playingTeam": "AUSTRALIA",
+  "playedAgainst": "INDIA"
+}
+
+
+###
+POST http://localhost:8080/api/player/add-match?playerId=3
+Content-Type: application/json
+
+{
+"score": 0,
+"wicket": 1,
+"stadium": "VCAS, Nagpur",
+"matchType": "ODI",
+"matchDate": "30/02/2013",
+"playingTeam": "India",
+"playedAgainst": "Australia"
+}
