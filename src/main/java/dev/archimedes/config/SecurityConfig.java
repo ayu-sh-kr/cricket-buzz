@@ -44,7 +44,7 @@ public class SecurityConfig {
                 })
                 .sessionManagement(session -> session
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-                .oauth2Login(withDefaults())
+//                .oauth2Login(withDefaults())
                 .oauth2ResourceServer(oauth -> oauth.jwt(withDefaults()))
                 .formLogin(withDefaults())
         ;
