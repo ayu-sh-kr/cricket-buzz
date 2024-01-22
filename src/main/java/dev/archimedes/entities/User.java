@@ -43,4 +43,19 @@ public class User {
 
     @Column(name = "ACCOUNT_STATUS")
     private AccountStatus accountStatus = AccountStatus.ENABLED;
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", phone=" + phone +
+                ", dateOfBirth=" + dateOfBirth +
+                ", userType=" + userType +
+                ", active=" + active +
+                ", accountStatus=" + accountStatus +
+                '}';
+    }
 }
