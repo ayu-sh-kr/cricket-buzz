@@ -43,19 +43,18 @@ public class SecurityConfig {
         http.csrf(AbstractHttpConfigurer::disable)
                 .cors(cors -> cors.configurationSource(corsConfigurationSource()))
                 .authorizeHttpRequests(auth -> {
+                    auth.requestMatchers("/error").permitAll();
                     auth.requestMatchers("/api/auth/**").permitAll();
                     auth.requestMatchers("/api/oauth/home").permitAll();
                     auth.anyRequest().authenticated();
                 })
-//                .sessionManagement(session -> session
-//                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .oauth2Login(oauth2Login -> {
                     oauth2Login
                             .userInfoEndpoint(ep -> ep
                                     .userService(customOAuth2UserService));
-                    oauth2Login.defaultSuccessUrl("http://localhost:8080/api/oauth/github");
+                    oauth2Login.defaultSuccessUrl("/api/oauth/github");
                 })
-//                .oauth2ResourceServer(oauth -> oauth.jwt(withDefaults()))
+                .oauth2ResourceServer(oauth -> oauth.jwt(withDefaults()))
                 .formLogin(withDefaults())
                 .headers(header -> {
                     header.httpStrictTransportSecurity(httpSTS -> {

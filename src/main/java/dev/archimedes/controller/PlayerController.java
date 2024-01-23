@@ -8,6 +8,7 @@ import dev.archimedes.services.PlayerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -30,11 +31,13 @@ public class PlayerController {
     }
 
     @PostMapping("/create")
+    @PreAuthorize("hasAuthority('SCOPE_ADMIN')")
     public ResponseEntity<?> createPlayer(@RequestBody PlayerDto playerDto){
         return playerService.createPlayer(playerDto);
     }
 
     @PostMapping("/add-match")
+    @PreAuthorize("hasAuthority('SCOPE_ADMIN')")
     public ResponseEntity<?> addMatchToPlayer(@RequestParam("playerId") int playerId, @RequestBody MatchDto matchDto){
         return playerService.addMatchToPlayer(matchDto, playerId);
     }
